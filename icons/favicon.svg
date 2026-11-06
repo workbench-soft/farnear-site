@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Neon: a phone portal with a clear call symbol</title>
+  <defs><linearGradient id="rim" x2="1" y2="1"><stop stop-color="#65fff0"/><stop offset="1" stop-color="#e976fa"/></linearGradient></defs>
+  <rect x="8" y="8" width="240" height="240" rx="60" fill="#11162c"/>
+  <rect x="61" y="31" width="134" height="194" rx="44" fill="#352054" stroke="url(#rim)" stroke-width="19"/>
+  <path d="M88 109l25-5 15 29-15 11q12 23 35 29l11-17 29 8-3 26q-1 12-14 10c-55-6-86-37-92-71q-2-14 9-20Z" fill="#f1fffc"/>
+  <path d="M109 45h38" stroke="#d9fff7" stroke-width="14" stroke-linecap="round"/>
+</svg>
