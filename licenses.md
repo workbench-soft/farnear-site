@@ -2,7 +2,7 @@
 
 The app bundles dependencies which contain the following licenses:
 
-## i18next - 26.7.0 (MIT)
+## i18next - 26.7.1 (MIT)
 
 The MIT License (MIT)
 
@@ -50,7 +50,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## react-i18next - 17.1.11 (MIT)
+## react-i18next - 17.1.12 (MIT)
 
 The MIT License (MIT)
 
