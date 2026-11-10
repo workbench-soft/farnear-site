@@ -52,6 +52,12 @@
         messages through public Nostr relays, which see your IP address too.
       </p>
       <p>
+        To find out why a call fails, the app sends the server a short technical report on how the
+        connection went: its steps and timing, the kinds of network paths that were tried, your
+        browser version, your country and your network provider. The report holds no IP address, no
+        name and no part of the call. The server deletes it after 14 days.
+      </p>
+      <p>
         When a direct path fails, the call goes through a relay: Cloudflare's TURN service or a
         relay the developer runs. A relay sees the IP addresses of the devices and passes on
         encrypted data it can't read.
@@ -145,6 +151,12 @@
           и сервер не может их прочитать. Сервер видит ваш IP-адрес, пока вы на связи, и не ведёт
           журнал сообщений. Farnear может отправлять те же зашифрованные сообщения через публичные
           реле Nostr, которые тоже видят IP-адрес.
+        </p>
+        <p>
+          Чтобы понять, почему звонок не соединился, приложение отправляет серверу короткий
+          технический отчёт о ходе соединения: шаги и их время, виды сетевых путей, версию браузера,
+          страну и провайдера. В отчёте нет IP-адреса, имени и содержимого звонка. Сервер удаляет
+          отчёт через 14 дней.
         </p>
         <p>
           Если прямой путь не работает, звонок идёт через ретранслятор: сервис TURN от Cloudflare
