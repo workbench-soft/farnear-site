@@ -1,0 +1,1 @@
+(function(){var e=class extends AudioWorkletProcessor{#e=new Float32Array(Math.round(sampleRate/10));#t=0;process(e){let t=e[0]?.[0];if(!t)return!0;for(let e of t)this.#e[this.#t++]=e,this.#t<this.#e.length||(this.port.postMessage(this.#e),this.#e=new Float32Array(this.#e.length),this.#t=0);return!0}};registerProcessor(`farnear-capture`,e)})();
