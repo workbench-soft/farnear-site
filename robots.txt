@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://farnear.workbench-soft.com/sitemap.xml

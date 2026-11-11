@@ -8,13 +8,14 @@
     <link rel="icon" href="/icons/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="canonical" href="https://farnear.workbench-soft.com/privacy/" />
     <meta name="theme-color" content="#20245a" />
     <meta
       name="description"
       content="What Farnear and its services see when you make a call, and the ads it shows."
     />
     <title>Privacy policy | Farnear</title>
-    <link rel="stylesheet" crossorigin href="/assets/app-DnUTnJHP.css">
+    <link rel="stylesheet" crossorigin href="/assets/app-9rLkbmr_.css">
     <meta name="google-adsense-account" content="ca-pub-8598703460892343">
     <script src="/adsense.js"></script>
   </head>
@@ -31,7 +32,7 @@
       <p>
         This policy covers the site https://farnear.workbench-soft.com and the Android app Farnear
         (com.workbenchsoft.farnear). The app shows the same pages as the site, with its own ads.
-        Last updated 3 November 2026. <a href="#ru">Русская версия ниже.</a>
+        Last updated 11 November 2026. <a href="#ru">Русская версия ниже.</a>
       </p>
 
       <h2>What stays on your device</h2>
@@ -39,6 +40,8 @@
         Your name, your saved calls with their links, their transcripts and your language sit in
         your browser's storage or in the app. They stay on your phone or computer, and the Android
         app leaves them out of cloud backups. Clearing the site data or the app data deletes them.
+        Your name also goes to the others on a call, inside the encrypted setup messages, so they
+        see who joined.
       </p>
 
       <h2>Your calls</h2>
@@ -64,10 +67,13 @@
         messages through public Nostr relays, which see your IP address too.
       </p>
       <p>
-        To find out why a call fails, the app sends the server a short technical report on how the
-        connection went: its steps and timing, the kinds of network paths that were tried, your
-        browser version, your country and your network provider. The report holds no IP address, no
-        name and no part of the call. The server deletes it after 14 days.
+        To find out why calls fail, the app sends the server a short technical report on how the
+        connection went, for every call: when the call page has been open a while, when a call
+        connects, and when it fails or restarts. The report holds its steps and timing, the kinds of
+        network paths that were tried and your browser's user agent, which names the browser, the
+        system and on Android the phone model. The server adds your country and your network
+        provider, and notes the same two each time a device opens a call link. The report holds no
+        IP address, no name and no part of the call. The server deletes it after 14 days.
       </p>
       <p>
         When a direct path fails, the call goes through a relay: Cloudflare's TURN service or a
@@ -116,11 +122,13 @@
         >.
       </p>
 
-      <h2>Remove ads</h2>
+      <h2>Purchases</h2>
       <p>
-        "Remove ads" in the Android app is a one time purchase through Google Play. Google handles
-        the payment under the Google Play terms. Farnear gets only the fact that your Google account
-        owns the purchase. It doesn't see your card details.
+        "Remove ads" and "Farnear Pro" in the Android app are one time purchases through Google
+        Play. Google handles the payment under the Google Play terms. Farnear gets only the fact
+        that your Google account owns the purchase. It doesn't see your card details. While you are
+        on a call with Pro, the others on the call learn that someone there has Pro, inside the same
+        encrypted messages.
       </p>
 
       <h2>Children</h2>
@@ -141,14 +149,16 @@
         <p>
           Политика относится к сайту https://farnear.workbench-soft.com и приложению Farnear для
           Android (com.workbenchsoft.farnear). Приложение показывает те же страницы, что и сайт, со
-          своей рекламой. Обновлено 3 ноября 2026 года.
+          своей рекламой. Обновлено 11 ноября 2026 года.
         </p>
 
         <h2>Что остаётся на устройстве</h2>
         <p>
           Ваше имя, сохранённые звонки со ссылками, их расшифровки и язык хранятся в браузере или в
           приложении. Они остаются на вашем телефоне или компьютере, а приложение для Android не
-          кладёт их в облачные копии. Очистка данных сайта или приложения их удаляет.
+          кладёт их в облачные копии. Очистка данных сайта или приложения их удаляет. Имя также
+          уходит другим участникам звонка внутри зашифрованных сообщений, чтобы они видели, кто
+          пришёл.
         </p>
 
         <h2>Ваши звонки</h2>
@@ -174,10 +184,13 @@
           реле Nostr, которые тоже видят IP-адрес.
         </p>
         <p>
-          Чтобы понять, почему звонок не соединился, приложение отправляет серверу короткий
-          технический отчёт о ходе соединения: шаги и их время, виды сетевых путей, версию браузера,
-          страну и провайдера. В отчёте нет IP-адреса, имени и содержимого звонка. Сервер удаляет
-          отчёт через 14 дней.
+          Чтобы понять, почему звонки не соединяются, приложение отправляет серверу короткий
+          технический отчёт о ходе соединения, для каждого звонка: когда страница звонка открыта
+          какое-то время, когда звонок соединился и когда он сорвался или начался заново. В отчёте
+          шаги и их время, виды сетевых путей и строка браузера (user agent), где видны браузер,
+          система, а на Android модель телефона. Сервер добавляет страну и провайдера и записывает
+          их же каждый раз, когда устройство открывает ссылку на звонок. В отчёте нет IP-адреса,
+          имени и содержимого звонка. Сервер удаляет отчёт через 14 дней.
         </p>
         <p>
           Если прямой путь не работает, звонок идёт через ретранслятор: сервис TURN от Cloudflare
@@ -219,11 +232,12 @@
           настройках телефона.
         </p>
 
-        <h2>Отключение рекламы</h2>
+        <h2>Покупки</h2>
         <p>
-          «Убрать рекламу» в приложении для Android это разовая покупка через Google Play. Оплату
-          проводит Google по правилам Google Play. Farnear узнаёт только то, что ваш аккаунт Google
-          владеет покупкой, и не видит данные карты.
+          «Убрать рекламу» и «Farnear Pro» в приложении для Android это разовые покупки через Google
+          Play. Оплату проводит Google по правилам Google Play. Farnear узнаёт только то, что ваш
+          аккаунт Google владеет покупкой, и не видит данные карты. Если у вас Pro, другие участники
+          звонка узнают об этом из тех же зашифрованных сообщений.
         </p>
 
         <h2>Дети</h2>
