@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.googleadservices.com https://*.googletagservices.com https://*.gstatic.com; connect-src 'self' wss://signal.workbench-soft.com wss://offchain.pub wss://relay.snort.social wss://nostr.bitcoiner.social wss://nostr.oxtr.dev wss://nostr.data.haus https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.gstatic.com; frame-src https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'self'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.googleadservices.com https://*.googletagservices.com https://*.gstatic.com; connect-src 'self' wss://signal.workbench-soft.com https://signal.workbench-soft.com wss://offchain.pub wss://relay.snort.social wss://nostr.bitcoiner.social wss://nostr.oxtr.dev wss://nostr.data.haus https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.gstatic.com; frame-src https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'self'">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/icons/favicon.ico" sizes="any" />
@@ -15,7 +15,7 @@
       content="What Farnear and its services see when you make a call, and the ads it shows."
     />
     <title>Privacy policy | Farnear</title>
-    <link rel="stylesheet" crossorigin href="/assets/app-0Wwy92Ow.css">
+    <link rel="stylesheet" crossorigin href="/assets/app-C4kzl3-n.css">
     <meta name="google-adsense-account" content="ca-pub-8598703460892343">
     <script src="/adsense.js"></script>
   </head>
@@ -65,6 +65,12 @@
         in the call link, so the server can't read them. The server sees your IP address while you
         are connected and keeps no log of the messages. Farnear may also send the same encrypted
         messages through public Nostr relays, which see your IP address too.
+      </p>
+      <p>
+        If you allow rings, your browser makes a push address, and Farnear sends it to the people in
+        your calls inside those encrypted messages. A ring then goes through the signalling server
+        to your browser's push service, such as Google's or Mozilla's. It is encrypted for your
+        browser, so neither of them can read who calls. The server keeps no push address.
       </p>
       <p>
         To find out why calls fail, the app sends the server a short technical report on how the
@@ -182,6 +188,13 @@
           и сервер не может их прочитать. Сервер видит ваш IP-адрес, пока вы на связи, и не ведёт
           журнал сообщений. Farnear может отправлять те же зашифрованные сообщения через публичные
           реле Nostr, которые тоже видят IP-адрес.
+        </p>
+        <p>
+          Если вы разрешили звонить на устройство, браузер создаёт push-адрес. Farnear отправляет
+          его людям из ваших звонков внутри тех же зашифрованных сообщений. Вызов идёт через сервер
+          Farnear в push-сервис вашего браузера, например Google или Mozilla. Он зашифрован для
+          вашего браузера, и ни сервер, ни push-сервис не видят, кто звонит. Сервер не хранит
+          push-адреса.
         </p>
         <p>
           Чтобы понять, почему звонки не соединяются, приложение отправляет серверу короткий
