@@ -89,6 +89,11 @@
         relay the developer runs. A relay sees the IP addresses of the devices and passes on
         encrypted data it can't read.
       </p>
+      <p>
+        The signalling server keeps the latest temporary relay settings and reuses them for 90
+        minutes across reconnects. These credentials expire after four hours and contain no call
+        content. The permanent relay key stays on the server.
+      </p>
 
       <h2>Hosting</h2>
       <p>
@@ -214,6 +219,11 @@
           Если прямой путь не работает, звонок идёт через ретранслятор: сервис TURN от Cloudflare
           или ретранслятор разработчика. Он видит IP-адреса устройств и передаёт зашифрованные
           данные, которые не может прочитать.
+        </p>
+        <p>
+          Сервер сигнализации хранит последние временные настройки ретранслятора и повторно выдаёт
+          их при переподключениях в течение 90 минут. Эти данные доступа истекают через четыре часа
+          и не содержат содержимого звонка. Постоянный ключ остаётся на сервере.
         </p>
 
         <h2>Хостинг</h2>

@@ -1,1 +1,0 @@
-export{s as getRels}from"./src--K5X5Bin.js";

@@ -1,0 +1,1 @@
+export{s as getRels}from"./src-_kA-yzcZ.js";
