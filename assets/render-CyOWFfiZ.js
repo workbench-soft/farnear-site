@@ -1,1 +1,0 @@
-export{s as getRels}from"./src-jC4RpOHb.js";
