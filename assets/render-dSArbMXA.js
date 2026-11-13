@@ -1,1 +1,0 @@
-export{s as getRels}from"./src-DMtgDzQF.js";
