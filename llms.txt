@@ -1,0 +1,37 @@
+# Farnear
+
+> Free video calls for families far apart, straight between your devices, with a shared board to draw on together. No account needed.
+
+Farnear is a free video call app for families who live in different countries. A call is a link: send it, and the others open it in a browser or in the Android app. No account and no sign up.
+
+## What you get
+
+- Video and sound go straight between the devices, encrypted. No server keeps them.
+- A shared board to draw on together, over a photo, a video, a PDF or slides.
+- Several ways to connect. When two networks can't reach each other, a relay passes the encrypted data on.
+- Works in a browser on a phone or a computer, and in the Android app, in 9 languages.
+
+## Questions
+
+- **Is Farnear free?** Yes. A few ads on the pages around a call pay for it, and a call shows none.
+- **Do I need an account?** No. Open the link and type your name. Your saved calls stay on your device.
+- **Who can see my call?** Only the people with the link. The setup messages are encrypted with the key in the link, so the servers on the way can't read them.
+
+## Pages
+
+- [Home](https://farnear.workbench-soft.com/): start a call, or join one with a link
+- [About](https://farnear.workbench-soft.com/about/): who makes Farnear and how a call connects
+- [Privacy policy](https://farnear.workbench-soft.com/privacy/): what Farnear and its services see, and the ads
+- [Contact](https://farnear.workbench-soft.com/contact/): email the developer
+
+## Languages
+
+- [English](https://farnear.workbench-soft.com/)
+- [Русский](https://farnear.workbench-soft.com/ru/)
+- [Deutsch](https://farnear.workbench-soft.com/de/)
+- [Français](https://farnear.workbench-soft.com/fr/)
+- [Español](https://farnear.workbench-soft.com/es/)
+- [中文](https://farnear.workbench-soft.com/zh/)
+- [日本語](https://farnear.workbench-soft.com/ja/)
+- [한국어](https://farnear.workbench-soft.com/ko/)
+- [Norsk bokmål](https://farnear.workbench-soft.com/nb/)

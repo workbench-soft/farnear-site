@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://farnear.workbench-soft.com/</loc></url>
-  <url><loc>https://farnear.workbench-soft.com/about/</loc></url>
-  <url><loc>https://farnear.workbench-soft.com/contact/</loc></url>
-  <url><loc>https://farnear.workbench-soft.com/privacy/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://farnear.workbench-soft.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/about/</loc>
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/contact/</loc>
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
+  <url>
+    <loc>https://farnear.workbench-soft.com/nb/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://farnear.workbench-soft.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://farnear.workbench-soft.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://farnear.workbench-soft.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://farnear.workbench-soft.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://farnear.workbench-soft.com/es/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://farnear.workbench-soft.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://farnear.workbench-soft.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://farnear.workbench-soft.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="nb" href="https://farnear.workbench-soft.com/nb/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://farnear.workbench-soft.com/" />
+  </url>
 </urlset>
