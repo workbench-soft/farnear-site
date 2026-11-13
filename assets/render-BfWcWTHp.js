@@ -1,0 +1,1 @@
+export{s as getRels}from"./src-DhJlkEmx.js";
