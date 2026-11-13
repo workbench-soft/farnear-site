@@ -1,1 +1,0 @@
-export{s as getRels}from"./src-DN7X2g4L.js";
