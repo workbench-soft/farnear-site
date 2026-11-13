@@ -1,0 +1,1 @@
+import{a as e,t}from"./app-zvQaaA2t.js";function n(e,n,r){return e===`#ru`?`ru`:e===`#en`?`en`:(n===`phone`?t(r):n)===`ru`?`ru`:`en`}function r(){let t=n(location.hash,e.get(),navigator.languages);document.documentElement.dataset.copy=t,document.documentElement.lang=t}r(),addEventListener(`hashchange`,r);

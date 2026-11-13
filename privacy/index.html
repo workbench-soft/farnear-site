@@ -47,7 +47,9 @@
         ]
       }
     </script>
-    <link rel="stylesheet" crossorigin href="/assets/app-Dg0fz9Dw.css">
+    <script type="module" crossorigin src="/assets/app-zvQaaA2t.js"></script>
+    <script type="module" crossorigin src="/assets/page-copy--HXLDJvH.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/app-rJxhX330.css">
     <meta name="google-adsense-account" content="ca-pub-8598703460892343">
     <script src="/adsense.js"></script>
   </head>
@@ -58,140 +60,146 @@
       >
       <a href="/about/">About</a> <a href="/privacy/">Privacy</a>
       <a href="/contact/">Contact</a>
+      <span class="copy-switch">
+        <a href="#ru" lang="ru" hreflang="ru">Русский</a>
+        <a href="#en" lang="en" hreflang="en">English</a>
+      </span>
     </nav>
     <main class="page">
-      <h1>Privacy policy</h1>
-      <p>
-        This policy covers the site https://farnear.workbench-soft.com and the Android app Farnear
-        (com.workbenchsoft.farnear). The app shows the same pages as the site, with its own ads.
-        Last updated 11 November 2026. <a href="#ru">Русская версия ниже.</a>
-      </p>
+      <section data-copy="en" lang="en" id="en">
+        <h1>Privacy policy</h1>
+        <p>
+          This policy covers the site https://farnear.workbench-soft.com and the Android app Farnear
+          (com.workbenchsoft.farnear). The app shows the same pages as the site, with its own ads.
+          Last updated 11 November 2026.
+        </p>
 
-      <h2>What stays on your device</h2>
-      <p>
-        Your name, your saved calls with their links, their transcripts and your language sit in
-        your browser's storage or in the app. They stay on your phone or computer, and the Android
-        app leaves them out of cloud backups. Clearing the site data or the app data deletes them.
-        Your name also goes to the others on a call, inside the encrypted setup messages, so they
-        see who joined.
-      </p>
+        <h2>What stays on your device</h2>
+        <p>
+          Your name, your saved calls with their links, their transcripts and your language sit in
+          your browser's storage or in the app. They stay on your phone or computer, and the Android
+          app leaves them out of cloud backups. Clearing the site data or the app data deletes them.
+          Your name also goes to the others on a call, inside the encrypted setup messages, so they
+          see who joined.
+        </p>
 
-      <h2>Your calls</h2>
-      <p>
-        The video, the sound and the board go straight between the devices on the call, encrypted.
-        Farnear doesn't record the video or the sound, and no server stores a part of a call. The
-        camera and the microphone work only while you are on a call. A background blur or picture is
-        drawn on your own device.
-      </p>
-      <p>
-        Each call writes a transcript by itself, unless a person turns it off for the room in the
-        call settings. One device on the call turns the speech into text, on the device itself. Each
-        person on the call sees a note while it runs. The text goes to the other devices on the call
-        the same direct, encrypted way, and stays in each browser's storage with the saved call.
-        Deleting the saved call deletes its transcript on that device. A person on the call can
-        delete a line or a whole call from each device. The speech model downloads from Hugging Face
-        (huggingface.co), which sees your IP address and no part of the call.
-      </p>
-      <p>
-        To connect, the devices swap short setup messages through Farnear's signalling server on
-        Cloudflare (signal.workbench-soft.com). The messages are encrypted with a key that sits only
-        in the call link, so the server can't read them. The server sees your IP address while you
-        are connected and keeps no log of the messages. Farnear may also send the same encrypted
-        messages through public Nostr relays, which see your IP address too.
-      </p>
-      <p>
-        If you allow rings, your browser makes a push address, and Farnear sends it to the people in
-        your calls inside those encrypted messages. A ring then goes through the signalling server
-        to your browser's push service, such as Google's or Mozilla's. It is encrypted for your
-        browser, so neither of them can read who calls. The server keeps no push address. A text
-        message goes the same way, and each device keeps the messages in its own browser. The
-        Android app makes its push address through Google Play services and gets a ring the same
-        way.
-      </p>
-      <p>
-        To find out why calls fail, the app sends the server a short technical report on how the
-        connection went, for every call: when the call page has been open a while, when a call
-        connects, and when it fails or restarts. The report holds its steps and timing, the kinds of
-        network paths that were tried and your browser's user agent, which names the browser, the
-        system and on Android the phone model. The server adds your country and your network
-        provider, and notes the same two each time a device opens a call link. The report holds no
-        IP address, no name and no part of the call. The server deletes it after 14 days.
-      </p>
-      <p>
-        When a direct path fails, the call goes through a relay: Cloudflare's TURN service or a
-        relay the developer runs. A relay sees the IP addresses of the devices and passes on
-        encrypted data it can't read.
-      </p>
-      <p>
-        The signalling server keeps the latest temporary relay settings and reuses them for 90
-        minutes across reconnects. These credentials expire after four hours and contain no call
-        content. The permanent relay key stays on the server.
-      </p>
+        <h2>Your calls</h2>
+        <p>
+          The video, the sound and the board go straight between the devices on the call, encrypted.
+          Farnear doesn't record the video or the sound, and no server stores a part of a call. The
+          camera and the microphone work only while you are on a call. A background blur or picture
+          is drawn on your own device.
+        </p>
+        <p>
+          Each call writes a transcript by itself, unless a person turns it off for the room in the
+          call settings. One device on the call turns the speech into text, on the device itself.
+          Each person on the call sees a note while it runs. The text goes to the other devices on
+          the call the same direct, encrypted way, and stays in each browser's storage with the
+          saved call. Deleting the saved call deletes its transcript on that device. A person on the
+          call can delete a line or a whole call from each device. The speech model downloads from
+          Hugging Face (huggingface.co), which sees your IP address and no part of the call.
+        </p>
+        <p>
+          To connect, the devices swap short setup messages through Farnear's signalling server on
+          Cloudflare (signal.workbench-soft.com). The messages are encrypted with a key that sits
+          only in the call link, so the server can't read them. The server sees your IP address
+          while you are connected and keeps no log of the messages. Farnear may also send the same
+          encrypted messages through public Nostr relays, which see your IP address too.
+        </p>
+        <p>
+          If you allow rings, your browser makes a push address, and Farnear sends it to the people
+          in your calls inside those encrypted messages. A ring then goes through the signalling
+          server to your browser's push service, such as Google's or Mozilla's. It is encrypted for
+          your browser, so neither of them can read who calls. The server keeps no push address. A
+          text message goes the same way, and each device keeps the messages in its own browser. The
+          Android app makes its push address through Google Play services and gets a ring the same
+          way.
+        </p>
+        <p>
+          To find out why calls fail, the app sends the server a short technical report on how the
+          connection went, for every call: when the call page has been open a while, when a call
+          connects, and when it fails or restarts. The report holds its steps and timing, the kinds
+          of network paths that were tried and your browser's user agent, which names the browser,
+          the system and on Android the phone model. The server adds your country and your network
+          provider, and notes the same two each time a device opens a call link. The report holds no
+          IP address, no name and no part of the call. The server deletes it after 14 days.
+        </p>
+        <p>
+          When a direct path fails, the call goes through a relay: Cloudflare's TURN service or a
+          relay the developer runs. A relay sees the IP addresses of the devices and passes on
+          encrypted data it can't read.
+        </p>
+        <p>
+          The signalling server keeps the latest temporary relay settings and reuses them for 90
+          minutes across reconnects. These credentials expire after four hours and contain no call
+          content. The permanent relay key stays on the server.
+        </p>
 
-      <h2>Hosting</h2>
-      <p>
-        GitHub Pages serves the site. Like any web host, it receives your IP address and browser
-        details when a page loads. See the
-        <a
-          href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
-          >GitHub privacy statement</a
-        >.
-      </p>
+        <h2>Hosting</h2>
+        <p>
+          GitHub Pages serves the site. Like any web host, it receives your IP address and browser
+          details when a page loads. See the
+          <a
+            href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+            >GitHub privacy statement</a
+          >.
+        </p>
 
-      <h2>Ads on the site</h2>
-      <p>
-        The site shows ads from Google AdSense on the pages around a call, and none on the call
-        page. Google and its partners use cookies to show you ads based on your visits to this and
-        other sites. Google receives your IP address, browser details and the ad cookies it sets. It
-        doesn't receive your calls, your name or your call links.
-      </p>
-      <p>
-        You can turn off personalised ads in
-        <a href="https://myadcenter.google.com/">Google My Ad Center</a>, or opt out of other
-        vendors at <a href="https://www.aboutads.info/choices/">aboutads.info</a>. In the EEA, the
-        UK and Switzerland the site asks for your consent first. See
-        <a href="https://policies.google.com/technologies/partner-sites"
-          >how Google uses information from sites or apps that use its services</a
-        >.
-      </p>
+        <h2>Ads on the site</h2>
+        <p>
+          The site shows ads from Google AdSense on the pages around a call, and none on the call
+          page. Google and its partners use cookies to show you ads based on your visits to this and
+          other sites. Google receives your IP address, browser details and the ad cookies it sets.
+          It doesn't receive your calls, your name or your call links.
+        </p>
+        <p>
+          You can turn off personalised ads in
+          <a href="https://myadcenter.google.com/">Google My Ad Center</a>, or opt out of other
+          vendors at <a href="https://www.aboutads.info/choices/">aboutads.info</a>. In the EEA, the
+          UK and Switzerland the site asks for your consent first. See
+          <a href="https://policies.google.com/technologies/partner-sites"
+            >how Google uses information from sites or apps that use its services</a
+          >.
+        </p>
 
-      <h2>Ads in the Android app</h2>
-      <p>
-        The app shows ads from Google AdMob in place of AdSense: a banner on the home screen and at
-        times a full screen ad after a call ends. AdMob receives your IP address, which gives your
-        approximate location, your device's advertising ID and app set ID, device details, and how
-        you use the ads, to show and measure ads, for analytics, and to stop fraud. It doesn't
-        receive your calls, your name or your call links. In the EEA, the UK and Switzerland the app
-        asks for your consent first, and Settings has "Ad privacy choices" to change it. You can
-        reset or delete the advertising ID in your phone's settings. See
-        <a href="https://policies.google.com/technologies/partner-sites"
-          >how Google uses information from sites or apps that use its services</a
-        >.
-      </p>
+        <h2>Ads in the Android app</h2>
+        <p>
+          The app shows ads from Google AdMob in place of AdSense: a banner on the home screen and
+          at times a full screen ad after a call ends. AdMob receives your IP address, which gives
+          your approximate location, your device's advertising ID and app set ID, device details,
+          and how you use the ads, to show and measure ads, for analytics, and to stop fraud. It
+          doesn't receive your calls, your name or your call links. In the EEA, the UK and
+          Switzerland the app asks for your consent first, and Settings has "Ad privacy choices" to
+          change it. You can reset or delete the advertising ID in your phone's settings. See
+          <a href="https://policies.google.com/technologies/partner-sites"
+            >how Google uses information from sites or apps that use its services</a
+          >.
+        </p>
 
-      <h2>Purchases</h2>
-      <p>
-        "Remove ads" and "Farnear Pro" in the Android app are one time purchases through Google
-        Play. Google handles the payment under the Google Play terms. Farnear gets only the fact
-        that your Google account owns the purchase. It doesn't see your card details. While you are
-        on a call with Pro, the others on the call learn that someone there has Pro, inside the same
-        encrypted messages.
-      </p>
+        <h2>Purchases</h2>
+        <p>
+          "Remove ads" and "Farnear Pro" in the Android app are one time purchases through Google
+          Play. Google handles the payment under the Google Play terms. Farnear gets only the fact
+          that your Google account owns the purchase. It doesn't see your card details. While you
+          are on a call with Pro, the others on the call learn that someone there has Pro, inside
+          the same encrypted messages.
+        </p>
 
-      <h2>Children</h2>
-      <p>
-        Children often join calls with their family. Farnear doesn't ask for an age, an email or a
-        phone number. A parent decides whether a child uses it.
-      </p>
+        <h2>Children</h2>
+        <p>
+          Children often join calls with their family. Farnear doesn't ask for an age, an email or a
+          phone number. A parent decides whether a child uses it.
+        </p>
 
-      <h2>Changes and contact</h2>
-      <p>
-        A change to this policy shows here with a new date. Questions go to
-        <a href="mailto:workbench.soft@gmail.com">workbench.soft@gmail.com</a>. Workbench Soft in
-        Sydney, Australia, makes Farnear.
-      </p>
+        <h2>Changes and contact</h2>
+        <p>
+          A change to this policy shows here with a new date. Questions go to
+          <a href="mailto:workbench.soft@gmail.com">workbench.soft@gmail.com</a>. Workbench Soft in
+          Sydney, Australia, makes Farnear.
+        </p>
+      </section>
 
-      <section lang="ru" id="ru">
+      <section data-copy="ru" lang="ru" id="ru">
         <h1>Политика конфиденциальности</h1>
         <p>
           Политика относится к сайту https://farnear.workbench-soft.com и приложению Farnear для
