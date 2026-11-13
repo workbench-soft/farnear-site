@@ -1,0 +1,1 @@
+export{s as getRels}from"./src-Dv2pRBRD.js";
