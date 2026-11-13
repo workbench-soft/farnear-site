@@ -14,7 +14,7 @@ Farnear is a free video call app for families who live in different countries. A
 ## Questions
 
 - **Is Farnear free?** Yes. A few ads on the pages around a call pay for it, and a call shows none.
-- **Do I need an account?** No. Open the link and type your name. Your saved calls stay on your device.
+- **Do I need an account?** No. Open the link and type your name. Your contacts and rooms stay on your device.
 - **Who can see my call?** Only the people with the link. The setup messages are encrypted with the key in the link, so the servers on the way can't read them.
 
 ## Pages
