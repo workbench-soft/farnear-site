@@ -1,0 +1,1 @@
+export{s as getRels}from"./render-m7DOWp2u.js";
