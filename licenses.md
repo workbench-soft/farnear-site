@@ -123,7 +123,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## @workbench-soft/fast-scroll - 0.2.0 (UNLICENSED)
+## @workbench-soft/fast-scroll - 0.2.1 (UNLICENSED)
 
 Full text: https://spdx.org/licenses/UNLICENSED.html
 
