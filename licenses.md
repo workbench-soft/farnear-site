@@ -23,7 +23,7 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## @mediapipe/tasks-vision - 1.2.2 (Apache-2.0)
+## @mediapipe/tasks-vision - 1.2.3 (Apache-2.0)
 
 Full text: https://spdx.org/licenses/Apache-2.0.html
 
@@ -557,7 +557,7 @@ SOFTWARE.
 
 Full text: https://spdx.org/licenses/MIT.html
 
-## onnxruntime-common - 1.31.1 (MIT)
+## onnxruntime-common - 1.31.0-dev.20260911-2a43ec07e (MIT)
 
 Full text: https://spdx.org/licenses/MIT.html
 
@@ -765,6 +765,6 @@ Apache License
    See the License for the specific language governing permissions and
    limitations under the License.
 
-## onnxruntime-web - 1.31.1 (MIT)
+## MediaPipe selfie segmentation model, Google - 2021_01_19-v1215 (Apache-2.0)
 
-Full text: https://spdx.org/licenses/MIT.html
+Full text: https://spdx.org/licenses/Apache-2.0.html

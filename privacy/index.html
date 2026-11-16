@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.googleadservices.com https://*.googletagservices.com https://*.gstatic.com; connect-src 'self' wss://signal.workbench-soft.com https://signal.workbench-soft.com wss://offchain.pub wss://relay.snort.social wss://nostr.bitcoiner.social wss://nostr.oxtr.dev wss://nostr.data.haus https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.gstatic.com; frame-src 'self' blob: https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'self'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.googleadservices.com https://*.googletagservices.com https://*.gstatic.com; connect-src 'self' wss://signal.workbench-soft.com https://signal.workbench-soft.com wss://offchain.pub wss://relay.snort.social wss://nostr.bitcoiner.social wss://nostr.oxtr.dev wss://nostr.data.haus https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.gstatic.com; frame-src 'self' blob: https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google; img-src 'self' data: blob: https:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'self'">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/icons/favicon.ico" sizes="any" />
@@ -48,8 +48,9 @@
       }
     </script>
     <script type="module" crossorigin src="/assets/app-UxyJwsdY.js"></script>
-    <script type="module" crossorigin src="/assets/phone-language-BxYNbJAZ.js"></script>
-    <script type="module" crossorigin src="/assets/page-copy-CqG1sXH7.js"></script>
+    <script type="module" crossorigin src="/assets/language-choice-YYk2SJ63.js"></script>
+    <script type="module" crossorigin src="/assets/phone-language-OflOq003.js"></script>
+    <script type="module" crossorigin src="/assets/page-copy-CQv3PhAj.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/app-D2VhJJGA.css">
     <meta name="google-adsense-account" content="ca-pub-8598703460892343">
     <script src="/adsense.js"></script>
@@ -72,7 +73,7 @@
         <p>
           This policy covers the site https://farnear.workbench-soft.com and the Android app Farnear
           (com.workbenchsoft.farnear). The app shows the same pages as the site, with its own ads.
-          Last updated 11 November 2026.
+          Last updated 16 November 2026.
         </p>
 
         <h2>What stays on your device</h2>
@@ -105,7 +106,15 @@
           Cloudflare (signal.workbench-soft.com). The messages are encrypted with a key that sits
           only in the call link, so the server can't read them. The server sees your IP address
           while you are connected and keeps no log of the messages. Farnear may also send the same
-          encrypted messages through public Nostr relays, which see your IP address too.
+          encrypted messages through public Nostr relays, which see your IP address too:
+          offchain.pub, relay.snort.social, nostr.bitcoiner.social, nostr.oxtr.dev and
+          nostr.data.haus. Farnear marks each message as short lived, so a relay passes it on
+          without storing it.
+        </p>
+        <p>
+          On each call, every device asks the STUN servers of Cloudflare (stun.cloudflare.com) and
+          Google (stun.l.google.com, stun1.l.google.com) for its public IP address, to find a direct
+          path. They see your IP address and no part of the call.
         </p>
         <p>
           If you allow rings, your browser makes a push address, and Farnear sends it to the people
@@ -205,7 +214,7 @@
         <p>
           Политика относится к сайту https://farnear.workbench-soft.com и приложению Farnear для
           Android (com.workbenchsoft.farnear). Приложение показывает те же страницы, что и сайт, со
-          своей рекламой. Обновлено 11 ноября 2026 года.
+          своей рекламой. Обновлено 16 ноября 2026 года.
         </p>
 
         <h2>Что остаётся на устройстве</h2>
@@ -225,19 +234,27 @@
           устройстве.
         </p>
         <p>
-          Участник может включить расшифровку. Тогда его устройство само превращает речь звонка в
-          текст. Пока она идёт, каждый участник видит пометку. Текст уходит на другие устройства
-          звонка тем же прямым зашифрованным путём и хранится в браузере вместе с сохранённым
-          звонком. Удаление сохранённого звонка удаляет его расшифровку на этом устройстве. Модель
-          речи скачивается с Hugging Face (huggingface.co). Он видит ваш IP-адрес и не получает
-          содержимое звонка.
+          Каждый звонок сам ведёт расшифровку, пока участник не выключит её для комнаты в настройках
+          звонка. Одно из устройств звонка само превращает речь в текст, без сервера. Пока она идёт,
+          каждый участник видит пометку. Текст уходит на другие устройства звонка тем же прямым
+          зашифрованным путём и хранится в браузере вместе с сохранённым звонком. Удаление
+          сохранённого звонка удаляет его расшифровку на этом устройстве. Участник звонка может
+          удалить строку или весь звонок на каждом устройстве. Модель речи скачивается с Hugging
+          Face (huggingface.co). Он видит ваш IP-адрес и не получает содержимое звонка.
         </p>
         <p>
           Чтобы соединиться, устройства обмениваются короткими сообщениями через сервер Farnear на
           Cloudflare (signal.workbench-soft.com). Сообщения зашифрованы ключом из ссылки на звонок,
           и сервер не может их прочитать. Сервер видит ваш IP-адрес, пока вы на связи, и не ведёт
           журнал сообщений. Farnear может отправлять те же зашифрованные сообщения через публичные
-          реле Nostr, которые тоже видят IP-адрес.
+          реле Nostr, которые тоже видят IP-адрес: offchain.pub, relay.snort.social,
+          nostr.bitcoiner.social, nostr.oxtr.dev и nostr.data.haus. Farnear помечает каждое
+          сообщение как временное, поэтому реле передаёт его дальше и не сохраняет.
+        </p>
+        <p>
+          В каждом звонке каждое устройство спрашивает свой публичный IP-адрес у серверов STUN от
+          Cloudflare (stun.cloudflare.com) и Google (stun.l.google.com, stun1.l.google.com), чтобы
+          найти прямой путь. Они видят ваш IP-адрес и не получают содержимое звонка.
         </p>
         <p>
           Если вы разрешили звонить на устройство, браузер создаёт push-адрес. Farnear отправляет
@@ -271,7 +288,11 @@
         <h2>Хостинг</h2>
         <p>
           Сайт отдаёт GitHub Pages. Как любой хостинг, он получает ваш IP-адрес и данные браузера,
-          когда открывается страница.
+          когда открывается страница. Подробнее в
+          <a
+            href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+            >заявлении GitHub о конфиденциальности</a
+          >.
         </p>
 
         <h2>Реклама на сайте</h2>
@@ -283,7 +304,8 @@
         </p>
         <p>
           Персонализированную рекламу можно отключить в
-          <a href="https://myadcenter.google.com/">Google My Ad Center</a>. В ЕЭЗ, Великобритании и
+          <a href="https://myadcenter.google.com/">Google My Ad Center</a>, а у других компаний на
+          <a href="https://www.aboutads.info/choices/">aboutads.info</a>. В ЕЭЗ, Великобритании и
           Швейцарии сайт сначала спрашивает согласие. Подробнее:
           <a href="https://policies.google.com/technologies/partner-sites"
             >как Google использует данные сайтов и приложений</a
@@ -299,7 +321,10 @@
           защиты от мошенничества. Звонки, имя и ссылки AdMob не получает. В ЕЭЗ, Великобритании и
           Швейцарии приложение сначала спрашивает согласие, а в настройках есть «Настройки
           конфиденциальности рекламы». Рекламный идентификатор можно сбросить или удалить в
-          настройках телефона.
+          настройках телефона. Подробнее:
+          <a href="https://policies.google.com/technologies/partner-sites"
+            >как Google использует данные сайтов и приложений</a
+          >.
         </p>
 
         <h2>Покупки</h2>
