@@ -1,0 +1,1 @@
+import{t as e}from"./language-choice-H3ue9mqj.js";function t(t){let n=/^\/([a-z]{2})\/?$/.exec(t)?.[1];return e.find(e=>e!==`en`&&e===n)}var n=e=>e===`/`||t(e)!==void 0;export{t as n,n as t};

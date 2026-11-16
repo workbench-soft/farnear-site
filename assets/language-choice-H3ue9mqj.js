@@ -1,0 +1,1 @@
+import{t as e}from"./storage-xdM8CdVd.js";var t=[`en`,`ru`,`de`,`fr`,`es`,`zh`,`ja`,`ko`,`nb`],n={en:`English`,ru:`Русский`,de:`Deutsch`,fr:`Français`,es:`Español`,zh:`中文`,ja:`日本語`,ko:`한국어`,nb:`Norsk bokmål`},r=[`phone`,...t],i=e(`language`,`phone`,e=>r.find(t=>t===e));export{i,r as n,n as r,t};

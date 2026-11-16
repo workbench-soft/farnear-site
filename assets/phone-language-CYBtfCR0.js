@@ -1,0 +1,1 @@
+import{t as e}from"./language-choice-H3ue9mqj.js";var t={no:`nb`,nn:`nb`};function n(n){for(let r of n){let n=r.toLowerCase().split(`-`)[0]??``,i=e.find(e=>e===(t[n]??n));if(i)return i}return`en`}export{n as t};
