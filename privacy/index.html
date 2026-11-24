@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.googleadservices.com https://*.googletagservices.com https://*.gstatic.com https://www.youtube.com; connect-src 'self' wss://signal.workbench-soft.com https://signal.workbench-soft.com wss://offchain.pub wss://relay.snort.social wss://nostr.bitcoiner.social wss://nostr.oxtr.dev wss://nostr.data.haus https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.gstatic.com; frame-src 'self' blob: https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://www.youtube-nocookie.com; img-src 'self' data: blob: https:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'self'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.googleadservices.com https://*.googletagservices.com https://*.gstatic.com https://www.youtube.com https://static.cloudflareinsights.com; connect-src 'self' wss://signal.workbench-soft.com https://signal.workbench-soft.com wss://offchain.pub wss://relay.snort.social wss://nostr.bitcoiner.social wss://nostr.oxtr.dev wss://nostr.data.haus https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://*.gstatic.com https://cloudflareinsights.com; frame-src 'self' blob: https://*.googlesyndication.com https://*.google.com https://*.doubleclick.net https://*.adtrafficquality.google https://www.youtube-nocookie.com; img-src 'self' data: blob: https:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'self'">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/icons/favicon.ico" sizes="any" />
@@ -55,6 +55,7 @@
     <link rel="stylesheet" crossorigin href="/assets/app-B0bTy03j.css">
     <meta name="google-adsense-account" content="ca-pub-8598703460892343">
     <script src="/adsense.js" defer></script>
+    <script src="/web-analytics.js" defer></script>
   </head>
   <body>
     <nav class="site-links">
@@ -163,6 +164,13 @@
           receives that device's IP address and browser details, and what the device plays. Nothing
           from YouTube loads before someone shares a link. See the
           <a href="https://policies.google.com/privacy">Google privacy policy</a>.
+        </p>
+
+        <h2>Visit counter</h2>
+        <p>
+          The pages around a call count visits with Cloudflare Web Analytics. It sets no cookie and
+          receives the page address, the browser and the country of the visit. The call page and a
+          chat link load no counter, so Cloudflare doesn't receive your call links.
         </p>
 
         <h2>Ads on the site</h2>
@@ -312,6 +320,13 @@
           тогда получает IP-адрес и данные браузера этого устройства и то, что оно смотрит. До того
           как кто-то поделится ссылкой, с YouTube ничего не загружается. Подробнее в
           <a href="https://policies.google.com/privacy">политике конфиденциальности Google</a>.
+        </p>
+
+        <h2>Счётчик посещений</h2>
+        <p>
+          Страницы вокруг звонка считают посещения через Cloudflare Web Analytics. Счётчик не ставит
+          cookie и получает адрес страницы, браузер и страну посещения. Страница звонка и ссылка на
+          чат счётчик не загружают, так что ссылки на звонки Cloudflare не получает.
         </p>
 
         <h2>Реклама на сайте</h2>
