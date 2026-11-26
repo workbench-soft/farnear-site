@@ -175,6 +175,10 @@ SOFTWARE.
 
 Full text: https://spdx.org/licenses/UNLICENSED.html
 
+## @workbench-soft/taste - 0.1.1 (UNLICENSED)
+
+Full text: https://spdx.org/licenses/UNLICENSED.html
+
 ## i18next - 27.1.5 (MIT)
 
 The MIT License (MIT)
