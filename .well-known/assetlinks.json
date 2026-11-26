@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.workbenchsoft.farnear",
+      "sha256_cert_fingerprints": [
+        "6A:40:8A:ED:40:FA:39:7D:D4:AD:46:71:AD:A3:F5:39:A4:62:F4:41:E3:7B:F2:AC:1D:0A:E8:22:56:B0:F8:ED",
+        "E6:E3:56:04:C8:46:63:71:09:6F:D4:BA:3B:D5:73:C3:AD:DA:4A:AA:E6:04:DA:42:4C:47:CA:7A:3D:93:C9:7A"
+      ]
+    }
+  }
+]
